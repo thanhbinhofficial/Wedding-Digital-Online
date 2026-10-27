@@ -1,0 +1,8 @@
+{
+  "name": "Thiệp Cưới Online - Wedding Invitation Studio",
+  "description": "Nền tảng thiệp cưới trực tuyến sang trọng đa ngôn ngữ (Tiếng Việt & Tiếng Khmer) với giao diện đỏ hoàng gia - vàng kim, quản lý thiệp, mã QR, bản đồ Google Maps và hệ thống RSVP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

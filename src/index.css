@@ -1,0 +1,235 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body, input, textarea, select, button, option {
+    font-family: 'Times New Roman', 'Tinos', Times, Georgia, 'Battambang', 'Khmer OS Battambang', 'Noto Sans Khmer', serif, sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-muol {
+    font-family: 'Khmer OS Muol Light', 'Khmer OS Muol', 'Moul', 'Moulpali', 'Noto Serif Khmer', serif;
+    font-weight: 400 !important;
+  }
+  .font-battambang {
+    font-family: 'Battambang', 'Khmer OS Battambang', 'Noto Sans Khmer', system-ui, sans-serif;
+  }
+  .font-times, .font-vietnam, .font-latin {
+    font-family: 'Times New Roman', 'Tinos', Times, Georgia, serif !important;
+  }
+  .font-serif-luxury {
+    font-family: 'Playfair Display', 'Times New Roman', Georgia, serif;
+  }
+  .font-script {
+    font-family: 'Alex Brush', 'Great Vibes', cursive;
+  }
+  .font-khmer {
+    font-family: 'Noto Serif Khmer', 'Khmer OS Muol Light', serif;
+  }
+  .font-cinzel {
+    font-family: 'Cinzel', Georgia, serif;
+  }
+  .font-sans-clean {
+    font-family: 'Times New Roman', 'Tinos', Times, serif;
+  }
+
+  .wedding-card-frame {
+    position: relative;
+    border: 3px solid #D4AF37;
+    border-radius: 28px;
+    box-shadow: inset 0 0 0 4px #FAF7F2, inset 0 0 0 6px #C59B27;
+  }
+
+  .wedding-card-outer {
+    background-color: #3A0A0E;
+    padding: 16px;
+    border-radius: 36px;
+  }
+
+  .gold-gradient-text {
+    background: linear-gradient(135deg, #CF9E42 0%, #F5D77F 45%, #B37D28 75%, #FDE792 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .gold-gradient-bg {
+    background: linear-gradient(135deg, #CF9E42 0%, #E8BE65 40%, #B88329 80%, #F1D479 100%);
+  }
+
+  .red-royal-gradient {
+    background: linear-gradient(145deg, #8A0F1A 0%, #AA1926 40%, #68050E 100%);
+  }
+
+  .gold-border {
+    border-image: linear-gradient(to right, #B37D28, #F5D77F, #B37D28) 1;
+  }
+
+  .shadow-wedding {
+    box-shadow: 0 10px 30px -10px rgba(138, 15, 26, 0.25), 0 4px 12px -2px rgba(179, 125, 40, 0.15);
+  }
+}
+
+@keyframes floatPetal {
+  0% {
+    transform: translateY(-10px) rotate(0deg) translateX(0);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.8;
+  }
+  85% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg) translateX(50px);
+    opacity: 0;
+  }
+}
+
+.animate-petal {
+  animation: floatPetal 12s linear infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(245, 215, 127, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(245, 215, 127, 0.8);
+  }
+}
+
+.pulse-gold {
+  animation: pulseGlow 2.5s ease-in-out infinite;
+}
+
+@keyframes galleryProgress {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+/* Luxury Wedding Scroll-Triggered Section Reveal Effects */
+.scroll-reveal-item {
+  transition-property: opacity, transform, filter;
+  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.scroll-reveal-fade-up.scroll-reveal-hidden {
+  opacity: 0;
+  transform: translate3d(0, 48px, 0) scale(0.97);
+  filter: blur(3px);
+}
+
+.scroll-reveal-fade-down.scroll-reveal-hidden {
+  opacity: 0;
+  transform: translate3d(0, -40px, 0) scale(0.97);
+  filter: blur(3px);
+}
+
+.scroll-reveal-fade-left.scroll-reveal-hidden {
+  opacity: 0;
+  transform: translate3d(-52px, 16px, 0) scale(0.96);
+  filter: blur(3px);
+}
+
+.scroll-reveal-fade-right.scroll-reveal-hidden {
+  opacity: 0;
+  transform: translate3d(52px, 16px, 0) scale(0.96);
+  filter: blur(3px);
+}
+
+.scroll-reveal-zoom-in.scroll-reveal-hidden {
+  opacity: 0;
+  transform: translate3d(0, 28px, 0) scale(0.88);
+  filter: blur(4px);
+}
+
+.scroll-reveal-flip-up.scroll-reveal-hidden {
+  opacity: 0;
+  transform: perspective(1000px) rotateX(14deg) translate3d(0, 44px, 0) scale(0.95);
+  filter: blur(3px);
+}
+
+.scroll-reveal-royal-bloom.scroll-reveal-hidden {
+  opacity: 0;
+  transform: translate3d(0, 36px, 0) scale(0.92);
+  filter: blur(4px) brightness(1.08);
+}
+
+.scroll-reveal-visible {
+  opacity: 1 !important;
+  transform: perspective(1000px) rotateX(0deg) translate3d(0, 0, 0) scale(1) !important;
+  filter: blur(0px) brightness(1) !important;
+}
+
+@keyframes goldenShimmerSweep {
+  0% {
+    box-shadow: 0 0 0 0 rgba(212, 175, 55, 0);
+  }
+  40% {
+    box-shadow: 0 12px 38px -6px rgba(212, 175, 55, 0.45), 0 0 22px 2px rgba(245, 215, 127, 0.35);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(212, 175, 55, 0);
+  }
+}
+
+.scroll-reveal-shimmer {
+  animation: goldenShimmerSweep 1.6s ease-out 0.15s 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal-item {
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+  }
+}
+
+/* Cross-device touch & scrollbar utilities */
+html, body {
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  scroll-behavior: smooth;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.touch-pan-y {
+  touch-action: pan-y;
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A01522;
+}

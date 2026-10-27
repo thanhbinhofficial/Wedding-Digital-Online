@@ -1,0 +1,404 @@
+{
+  "admin": {
+    "email": "admin@wedding.com",
+    "passwordHash": "e151c42ecd48740ed95537ebd782b3093e97e635cc197628040c9ced5a2347955decc07ab621f4d4ae73da31e0ae2f0b95201f93734f758c56c69fc2d6017414",
+    "salt": "a1159ab21ecc318645beff532ee7e62c"
+  },
+  "invitations": [
+    {
+      "id": "inv-sample-[#weddingkongseyha]",
+      "slug": "weddingkongseyha",
+      "title": "ពិធីសិរីមង្គលអាពាហ៍ពិពាហ៍: គង់ សីហា & ងួន សុវណ្ណា (Kong Seyha & Nguon Sovanna)",
+      "templateId": "khmer-traditional",
+      "hostEmail": "kungseyhaofficial@gmail.com",
+      "status": "published",
+      "isPasswordProtected": false,
+      "primaryLanguage": "km",
+      "allowLanguageToggle": true,
+      "groom": {
+        "fullName": "គង់ សីហា (Kong Seyha)",
+        "parents": {
+          "father": "គង់ សំអុល (Kong Sam Ol)",
+          "mother": "អ៊ុក គឹមហុង (Ouk Kimhong)"
+        },
+        "representative": "លោក គង់ សុជាតិ",
+        "hometown": "រាជធានីភ្នំពេញ (Phnom Penh)",
+        "familyAddress": "បុរីប៉េងហួត បឹងស្នោ ផ្លូវជាតិលេខ 1 សង្កាត់និរោធ ខណ្ឌចបារអំពៅ ភ្នំពេញ",
+        "phone": "012 345 678",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
+        "familyMessage": "យើងខ្ញុំជាមាតាបិតាខាងប្រុស មានកិត្តិយសសូមគោរពអញ្ជើញសម្ដេច ឯកឧត្ដម លោកជំទាវ លោក លោកស្រី អញ្ជើញចូលរួមជាភ្ញៀវកិត្តិយស។"
+      },
+      "bride": {
+        "fullName": "ងួន សុវណ្ណា (Nguon Sovanna)",
+        "parents": {
+          "father": "ម៉ៅ សុផល (Mao Sophal)",
+          "mother": "សុខ គឹមលាង (Sok Kimleang)"
+        },
+        "representative": "លោក ម៉ៅ ចាន់ថា",
+        "hometown": "រាជធានីភ្នំពេញ (Phnom Penh)",
+        "familyAddress": "ផ្ទះលេខ ៨៨ ផ្លូវ ២៧១ សង្កាត់ផ្សារដើមថ្កូវ ខណ្ឌចំការមន ភ្នំពេញ",
+        "phone": "098 888 999",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+        "familyMessage": "សូមស្វាគមន៍យ៉ាងកក់ក្តៅចំពោះវត្តមានដ៏ឧត្តុង្គឧត្តមរបស់ភ្ញៀវកិត្តិយសទាំងអស់!"
+      },
+      "solarDate": "2026-11-20",
+      "lunarDate": "ថ្ងៃសុក្រ ១១កើត ខែកត្តិក ឆ្នាំមមី",
+      "weddingTime": "17:00",
+      "separateSchedules": true,
+      "groomCeremony": {
+        "title": "ពិធីហែជំនូន & កាត់សក់បង្កក់សិរី (Groom Ceremony)",
+        "date": "2026-11-20",
+        "time": "07:00",
+        "venueName": "គេហដ្ឋានខាងស្រី (Bride Residence)",
+        "address": "បុរីប៉េងហួត បឹងស្នោ ផ្លូវជាតិលេខ 1 ភ្នំពេញ",
+        "mapUrl": "https://maps.google.com/?q=Peng+Huoth+Boeung+Snea+Phnom+Penh"
+      },
+      "brideCeremony": {
+        "title": "ពិធីសំពះផ្ទឹម & ចងដៃសិរីមង្គល (Tie Knot Ceremony)",
+        "date": "2026-11-20",
+        "time": "09:30",
+        "venueName": "គេហដ្ឋានខាងស្រី",
+        "address": "បុរីប៉េងហួត បឹងស្នោ ផ្លូវជាតិលេខ 1 ភ្នំពេញ",
+        "mapUrl": "https://maps.google.com/?q=Peng+Huoth+Boeung+Snea+Phnom+Penh"
+      },
+      "reception": {
+        "title": "ពិធីពិសាភោជនាហារពេលល្ងាច (Wedding Banquet)",
+        "date": "2026-11-20",
+        "time": "17:00",
+        "venueName": "មជ្ឈមណ្ឌលសន្និបាត និងពិព័រណ៍កោះពេជ្រ (Koh Pich Exhibition Center - Hall C)",
+        "address": "អាគារ C អាណាចក្រកោះពេជ្រ សង្កាត់ទន្លេបាសាក់ ខណ្ឌចំការមន ភ្នំពេញ",
+        "mapUrl": "https://maps.google.com/?q=Koh+Pich+Convention+Center+Phnom+Penh"
+      },
+      "personalizedMessage": "សិរីសួស្តីជ័យមង្គល! យើងខ្ញុំមានសេចក្តីសោមនស្សរីករាយ និងកិត្តិយសយ៉ាងក្រៃលែង សូមគោរពអញ្ជើញសម្ដេច ឯកឧត្ដម លោកជំទាវ លោក លោកស្រី និងមិត្តភក្តិទាំងអស់ ចូលរួមពិធីអាពាហ៍ពិពាហ៍របស់យើងខ្ញុំ។",
+      "story": [
+        {
+          "year": "2021",
+          "title": "ការជួបគ្នាលើកដំបូង",
+          "description": "អនុស្សាវរីយ៍ដំបូងបង្កើតបានជាចំណងមេត្រីភាពដ៏បរិសុទ្ធ។",
+          "image": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "year": "2026",
+          "title": "ថ្ងៃសិរីមង្គលអាពាហ៍ពិពាហ៍",
+          "description": "ការចាប់ផ្តើមទំព័រជីវិតថ្មីជាមួយក្តីស្រឡាញ់ និងការជូនពរពីអ្នកមានគុណ។",
+          "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "coverPhoto": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1200&q=80",
+      "photoGallery": [
+        "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80"
+      ],
+      "familyPhotos": [],
+      "bgMusicPreset": "traditional-royal",
+      "bankInfo": {
+        "groom": {
+          "bankName": "ABA Bank",
+          "accountNumber": "000 888 999",
+          "accountName": "KONG SEYHA"
+        },
+        "bride": {
+          "bankName": "Wing Bank",
+          "accountNumber": "012 345 678",
+          "accountName": "NGUON SOVANNA"
+        }
+      },
+      "createdAt": "2026-10-12T12:08:00.498Z",
+      "updatedAt": "2026-10-12T12:08:00.498Z"
+    },
+    {
+      "id": "inv-sample-vi-1",
+      "slug": "minh-quan-lan-anh",
+      "title": "Lễ Thành Hôn: Minh Quân & Lan Anh",
+      "templateId": "royal-red",
+      "status": "published",
+      "isPasswordProtected": false,
+      "primaryLanguage": "vi",
+      "allowLanguageToggle": true,
+      "groom": {
+        "fullName": "Trần Minh Quân",
+        "parents": {
+          "father": "Trần Văn Hưng",
+          "mother": "Nguyễn Thị Tuyết"
+        },
+        "representative": "Ông Trần Văn Nam (Bác ruột)",
+        "hometown": "Hà Nội",
+        "familyAddress": "Số 88 Phố Huế, Quận Hai Bà Trưng, TP. Hà Nội",
+        "phone": "0912 345 678",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
+        "familyMessage": "Gia đình nhà trai trân trọng kính mời quý quan khách tới chung vui cùng hai cháu."
+      },
+      "bride": {
+        "fullName": "Lê Hoàng Lan Anh",
+        "parents": {
+          "father": "Lê Quang Dũng",
+          "mother": "Phạm Thị Thúy"
+        },
+        "representative": "Ông Lê Quang Thành (Bác trưởng họ)",
+        "hometown": "TP. Hồ Chí Minh",
+        "familyAddress": "Số 152 Đường Nguyễn Đình Chiểu, Phường Võ Thị Sáu, Quận 3, TP. Hồ Chí Minh",
+        "phone": "0988 765 432",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+        "familyMessage": "Gia đình nhà gái rất vinh hạnh được đón tiếp quý bà con, cô bác và bạn bè thân hữu."
+      },
+      "solarDate": "2026-11-28",
+      "lunarDate": "Ngày 19 tháng 10 năm Bính Ngọ",
+      "weddingTime": "11:00",
+      "separateSchedules": true,
+      "groomCeremony": {
+        "title": "Lễ Vu Quy & Thành Hôn (Nhà Trai)",
+        "date": "2026-11-28",
+        "time": "09:00",
+        "venueName": "Tư gia Nhà Trai",
+        "address": "Số 88 Phố Huế, Quận Hai Bà Trưng, TP. Hà Nội",
+        "mapUrl": "https://maps.google.com/?q=88+Pho+Hue+Hanoi"
+      },
+      "brideCeremony": {
+        "title": "Lễ Xuất Giá (Nhà Gái)",
+        "date": "2026-11-27",
+        "time": "14:30",
+        "venueName": "Tư gia Nhà Gái",
+        "address": "Số 152 Đường Nguyễn Đình Chiểu, Quận 3, TP. Hồ Chí Minh",
+        "mapUrl": "https://maps.google.com/?q=152+Nguyen+Dinh+Chieu+Quan+3+HCM"
+      },
+      "reception": {
+        "title": "Tiệc Cưới Thân Mật",
+        "date": "2026-11-28",
+        "time": "11:30",
+        "venueName": "Trung Tâm Yến Tiệc & Hội Nghị The Grand Palace",
+        "address": "Sảnh Hoàng Gia - Tầng 2, 142 Cộng Hòa, Phường 4, Tân Bình, TP. Hồ Chí Minh",
+        "mapUrl": "https://maps.google.com/?q=142+Cong+Hoa+Tan+Binh"
+      },
+      "personalizedMessage": "Hạnh phúc trọn vẹn nhất trong đời là khi tìm thấy một nửa yêu thương và cùng nhau bước qua mọi chặng đường. Chúng con/chúng tôi vô cùng hạnh phúc khi được sự hiện diện và chúc phúc của quý khách!",
+      "story": [
+        {
+          "year": "2021",
+          "title": "Lần đầu gặp gỡ",
+          "description": "Chúng mình tình cờ gặp nhau tại một quán cà phê mùa thu Hà Nội, ánh mắt đầu tiên đã chạm vào trái tim.",
+          "image": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "year": "2023",
+          "title": "Lời tỏ tình ngọt ngào",
+          "description": "Dưới chân tháp Eiffel trong chuyến du lịch Paris, anh đã ngỏ lời và em đã nói \"Đồng ý\"!",
+          "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "year": "2026",
+          "title": "Về chung một nhà",
+          "description": "Khép lại chặng đường hẹn hò để mở ra trang mới ngọt ngào, vun đắp tổ ấm tương lai.",
+          "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "coverPhoto": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
+      "photoGallery": [
+        "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=800&q=80"
+      ],
+      "familyPhotos": [
+        {
+          "url": "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=800&q=80",
+          "caption": "Gia đình sum họp ngày lễ dạm ngõ đầm ấm",
+          "side": "family"
+        }
+      ],
+      "bgMusicPreset": "romantic-piano",
+      "bankInfo": {
+        "groom": {
+          "bankName": "Vietcombank",
+          "accountNumber": "1012345678",
+          "accountName": "TRAN MINH QUAN"
+        },
+        "bride": {
+          "bankName": "Techcombank",
+          "accountNumber": "19033445566",
+          "accountName": "LE HOANG LAN ANH"
+        }
+      },
+      "createdAt": "2026-10-12T12:08:00.498Z",
+      "updatedAt": "2026-10-12T12:08:00.498Z"
+    },
+    {
+      "id": "inv-sample-km-2",
+      "slug": "rathana-sophia",
+      "title": "ពិធីអាពាហ៍ពិពាហ៍: រតនា & សូភី (Rathana & Sophia)",
+      "templateId": "khmer-traditional",
+      "status": "published",
+      "isPasswordProtected": false,
+      "primaryLanguage": "km",
+      "allowLanguageToggle": true,
+      "groom": {
+        "fullName": "សេង រតនា (Seng Rathana)",
+        "parents": {
+          "father": "សេង សុវណ្ណ (Seng Sovann)",
+          "mother": "គង់ វណ្ណា (Kong Vanna)"
+        },
+        "representative": "លោក សេង វិបុល",
+        "hometown": "រាជធានីភ្នំពេញ (Phnom Penh)",
+        "familyAddress": "ផ្ទះលេខ ៤៥ ផ្លូវ ២១៤ សង្កាត់បឹងរាំង ខណ្ឌដូនពេញ ភ្នំពេញ",
+        "phone": "012 889 900",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80",
+        "familyMessage": "ក្រុមគ្រួសារខាងប្រុសមានកិត្តិយសសូមគោរពអញ្ជើញឯកឧត្តម លោកជំទាវ លោកលោកស្រីចូលរួមពិធីអាពាហ៍ពិពាហ៍កូនប្រុសកូនស្រីយើងខ្ញុំ។"
+      },
+      "bride": {
+        "fullName": "ជា សូភា (Chea Sophia)",
+        "parents": {
+          "father": "ជា ចំរើន (Chea Chamroeun)",
+          "mother": "ម៉ៅ ចិន្តា (Mao Chenda)"
+        },
+        "representative": "លោក ជា សុផល",
+        "hometown": "ខេត្តសៀមរាប (Siem Reap)",
+        "familyAddress": "ផ្ទះលេខ ១២ ភូមិវត្តបូព៌ សង្កាត់សាលាកំរើក ក្រុងសៀមរាប",
+        "phone": "098 776 655",
+        "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80",
+        "familyMessage": "ក្រុមគ្រួសារខាងស្រីមានសេចក្តីសោមនស្សរីករាយក្រៃលែងក្នុងការទទួលស្វាគមន៍ភ្ញៀវកិត្តិយសទាំងអស់។"
+      },
+      "solarDate": "2026-12-12",
+      "lunarDate": "ថ្ងៃទី ០៤ ខែមិគសិរ ឆ្នាំមមី",
+      "weddingTime": "17:00",
+      "separateSchedules": true,
+      "groomCeremony": {
+        "title": "ពិធីហែជំនូន & កាត់សក់បង្កក់សិរី",
+        "date": "2026-12-12",
+        "time": "07:30",
+        "venueName": "គេហដ្ឋានខាងស្រី (Bride Residence)",
+        "address": "ផ្ទះលេខ ១២ ភូមិវត្តបូព៌ ក្រុងសៀមរាប",
+        "mapUrl": "https://maps.google.com/?q=Wat+Bo+Siem+Reap"
+      },
+      "brideCeremony": {
+        "title": "ពិធីសំពះផ្ទឹម & ចងដៃសិរីមង្គល",
+        "date": "2026-12-12",
+        "time": "10:30",
+        "venueName": "គេហដ្ឋានខាងស្រី",
+        "address": "ផ្ទះលេខ ១២ ភូមិវត្តបូព៌ ក្រុងសៀមរាប",
+        "mapUrl": "https://maps.google.com/?q=Wat+Bo+Siem+Reap"
+      },
+      "reception": {
+        "title": "ពិធីពិសាភោជនាហារពេលល្ងាច (Wedding Banquet)",
+        "date": "2026-12-12",
+        "time": "17:30",
+        "venueName": "មជ្ឈមណ្ឌលសន្និបាត និងពិព័រណ៍ The Heritage Palace Hall A",
+        "address": "មហាវិថី ៦០ម៉ែត្រ សង្កាត់ស្លក្រាម ក្រុងសៀមរាប",
+        "mapUrl": "https://maps.google.com/?q=Siem+Reap+Heritage+Hall"
+      },
+      "personalizedMessage": "ក្តីស្រឡាញ់ដ៏ស្មោះស្ម័គ្រ និងពរជ័យពីលោកអ្នក គឺជាកាដូដ៏មានតម្លៃបំផុតសម្រាប់ទិវាអាពាហ៍ពិពាហ៍របស់យើងខ្ញុំ។ សូមអរគុណយ៉ាងជ្រាលជ្រៅចំពោះវត្តមានដ៏ឧត្តុង្គឧត្តម!",
+      "story": [
+        {
+          "year": "2022",
+          "title": "ការជួបគ្នាលើកដំបូង (First Met)",
+          "description": "យើងបានស្គាល់គ្នាក្នុងកម្មវិធីសប្បុរសធម៌នៅអង្គរវត្ត ខេត្តសៀមរាប។",
+          "image": "https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "year": "2024",
+          "title": "ការភ្ជាប់ពាក្យ (Engagement)",
+          "description": "ពិធីភ្ជាប់ពាក្យបានប្រារព្ធឡើងដោយមានការជូនពរយ៉ាងកក់ក្តៅពីចាស់ទុំទាំងសងខាង។",
+          "image": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "coverPhoto": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1200&q=80",
+      "photoGallery": [
+        "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80"
+      ],
+      "familyPhotos": [],
+      "bgMusicPreset": "traditional-royal",
+      "bankInfo": {
+        "groom": {
+          "bankName": "ABA Bank",
+          "accountNumber": "001 234 567",
+          "accountName": "SENG RATHANA"
+        },
+        "bride": {
+          "bankName": "ACLEDA Bank",
+          "accountNumber": "2233 4455 6677",
+          "accountName": "CHEA SOPHIA"
+        }
+      },
+      "createdAt": "2026-10-12T12:08:00.498Z",
+      "updatedAt": "2026-10-12T12:08:00.498Z"
+    }
+  ],
+  "rsvps": [
+    {
+      "id": "rsvp-1",
+      "invitationId": "inv-sample-vi-1",
+      "guestName": "Nguyễn Văn Hùng",
+      "phone": "0901 234 567",
+      "status": "attending",
+      "accompanyCount": 2,
+      "side": "groom",
+      "message": "Chúc hai bạn trăm năm hạnh phúc, sớm đón quý tử nhé!",
+      "submittedAt": "2026-10-11T12:08:00.498Z",
+      "updatedAt": "2026-10-11T12:08:00.498Z"
+    },
+    {
+      "id": "rsvp-2",
+      "invitationId": "inv-sample-vi-1",
+      "guestName": "Trần Thị Mai",
+      "phone": "0938 112 233",
+      "status": "attending",
+      "accompanyCount": 1,
+      "side": "bride",
+      "message": "Chúc mừng Lan Anh xinh đẹp! Nhất định mình sẽ có mặt sớm để chúc mừng cậu.",
+      "submittedAt": "2026-10-12T00:08:00.498Z",
+      "updatedAt": "2026-10-12T00:08:00.498Z"
+    },
+    {
+      "id": "rsvp-3",
+      "invitationId": "inv-sample-vi-1",
+      "guestName": "Phạm Minh Tuấn",
+      "phone": "0919 888 999",
+      "status": "undecided",
+      "accompanyCount": 1,
+      "side": "mutual",
+      "message": "Mình đang sắp xếp lịch bay từ Đà Nẵng ra, hy vọng sẽ kịp dự lễ!",
+      "submittedAt": "2026-10-12T06:08:00.498Z",
+      "updatedAt": "2026-10-12T06:08:00.498Z"
+    },
+    {
+      "id": "rsvp-4",
+      "invitationId": "inv-sample-km-2",
+      "guestName": "ហែម វិច្ឆិកា (Hem Vicheka)",
+      "phone": "017 334 556",
+      "status": "attending",
+      "accompanyCount": 2,
+      "side": "groom",
+      "message": "សូមជូនពរអ្នកទាំងពីរកសាងគ្រួសារពោរពេញដោយសុភមង្គល និងជោគជ័យ!",
+      "submittedAt": "2026-10-12T12:08:00.498Z",
+      "updatedAt": "2026-10-12T12:08:00.498Z"
+    }
+  ],
+  "guests": [
+    {
+      "id": "guest-1",
+      "invitationId": "inv-sample-vi-1",
+      "name": "Nguyễn Văn Hùng",
+      "title": "Anh",
+      "phone": "0901 234 567",
+      "side": "groom",
+      "code": "anh-hung-01",
+      "customGreeting": "Kính mời Anh Hùng và gia đình đến dự bữa cơm thân mật chung vui cùng Quân & Lan Anh",
+      "createdAt": "2026-10-12T12:08:00.498Z"
+    },
+    {
+      "id": "guest-2",
+      "invitationId": "inv-sample-vi-1",
+      "name": "Trần Thị Mai",
+      "title": "Bạn thân",
+      "phone": "0938 112 233",
+      "side": "bride",
+      "code": "mai-yeu-02",
+      "customGreeting": "Gửi bạn thân Mai yêu quý! Nhớ đến chung vui với tớ từ sớm nhé!",
+      "createdAt": "2026-10-12T12:08:00.498Z"
+    }
+  ]
+}
